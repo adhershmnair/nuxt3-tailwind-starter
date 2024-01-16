@@ -1,0 +1,9 @@
+.gitignore
+.eslintrc.js
+.nuxt
+.output
+/.quasar
+/dist
+node_modules
+babel.config.js
+tailwind.config.js

@@ -14,7 +14,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore node_modules --fix .",
     "format": "prettier .  --write"
   },
   "dependencies": {
@@ -32,6 +32,10 @@
     "autoprefixer": "^10.4.16",
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-vue": "^9.20.1",
     "postcss": "^8.4.33",
     "prettier": "3.2.2",

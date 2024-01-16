@@ -8,7 +8,10 @@
         <!-- TODO: You can add menu here -->
       </div>
       <div class="navbar-end">
-        <select v-model="theme" class="select select-primary md:w-full md:max-w-xs">
+        <select
+          v-model="theme"
+          class="select select-primary md:w-full md:max-w-xs"
+        >
           <option disabled selected>Select Theme</option>
           <option v-for="theme in themes" :value="theme" :key="theme">
             <span class="uppercase">{{ theme }}</span>
@@ -23,14 +26,17 @@
         <p class="md:font-bold">
           Create beautiful and fast websites without the tedious setup
         </p>
-        <p>Copyright © {{new Date().getFullYear()}} - All right reserved</p>
+        <p>Copyright © {{ new Date().getFullYear() }} - All right reserved</p>
       </div>
       <div>
         <div class="grid grid-flow-col gap-4">
           <a href="https://twitter.com/jrtiquez" target="_blank">
             <i class="lab la-twitter text-4xl"></i>
           </a>
-          <a href="https://github.com/adhershmnair/nuxt3-tailwind-starter" target="_blank">
+          <a
+            href="https://github.com/adhershmnair/nuxt3-tailwind-starter"
+            target="_blank"
+          >
             <i class="lab la-github text-4xl"></i>
           </a>
           <a href="https://facebook.com/ossph.org" target="_blank">
@@ -43,46 +49,46 @@
 </template>
 
 <script>
-import { ref, watch, onMounted } from 'vue';
+import { ref, watch, onMounted } from "vue";
 const THEMES = [
-  'light',
-  'dark',
-  'cupcake',
-  'bumblebee',
-  'emerald',
-  'corporate',
-  'synthwave',
-  'retro',
-  'cyberpunk',
-  'valentine',
-  'halloween',
-  'garden',
-  'forest',
-  'aqua',
-  'lofi',
-  'pastel',
-  'fantasy',
-  'wireframe',
-  'black',
-  'luxury',
-  'dracula',
-  'cmyk',
-  'autumn',
-  'business',
-  'acid',
-  'lemonade',
-  'night',
-  'coffee',
-  'winter',
+  "light",
+  "dark",
+  "cupcake",
+  "bumblebee",
+  "emerald",
+  "corporate",
+  "synthwave",
+  "retro",
+  "cyberpunk",
+  "valentine",
+  "halloween",
+  "garden",
+  "forest",
+  "aqua",
+  "lofi",
+  "pastel",
+  "fantasy",
+  "wireframe",
+  "black",
+  "luxury",
+  "dracula",
+  "cmyk",
+  "autumn",
+  "business",
+  "acid",
+  "lemonade",
+  "night",
+  "coffee",
+  "winter",
 ];
 export default {
-  setup () {
+  setup() {
     const theme = ref(null);
     watch(theme, (value) => {
-      localStorage.setItem('daisyui-theme', value);
+      localStorage.setItem("daisyui-theme", value);
     });
     onMounted(() => {
-      theme.value = localStorage.getItem('daisyui-theme') || 'dark';
+      theme.value = localStorage.getItem("daisyui-theme") || "dark";
     });
     return {
       theme,
