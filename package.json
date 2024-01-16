@@ -14,7 +14,10 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "format": "prettier .  --write"
+    "format": "prettier .  --write",
+    "lint": "npm run lint:es",
+    "lint:es": "eslint --ext .js,.vue . --max-warnings 0",
+    "lint:es:fix": "eslint --ext .js,.vue . --fix"
   },
   "dependencies": {
     "daisyui": "^4.6.0",
@@ -24,11 +27,13 @@
     "tailwindcss": "^3.4.1"
   },
   "devDependencies": {
+    "@nuxt/eslint-config": "^0.2.0",
     "@nuxtjs/color-mode": "^3.3.2",
     "@nuxtjs/tailwindcss": "^6.10.4",
     "@pinia/nuxt": "^0.5.1",
     "@vueuse/nuxt": "^10.7.2",
     "autoprefixer": "^10.4.16",
+    "eslint": "^8.56.0",
     "postcss": "^8.4.33",
     "prettier": "3.2.2",
     "sass": "^1.69.7"

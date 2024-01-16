@@ -12,9 +12,18 @@
           v-model="theme"
           class="select select-primary md:w-full md:max-w-xs"
         >
-          <option disabled selected>Select Theme</option>
-          <option v-for="theme in themes" :value="theme" :key="theme">
-            <span class="uppercase">{{ theme }}</span>
+          <option
+            disabled
+            selected
+          >
+            Select Theme
+          </option>
+          <option
+            v-for="daisyTheme in themes"
+            :key="daisyTheme"
+            :value="daisyTheme"
+          >
+            <span class="uppercase">{{ daisyTheme }}</span>
           </option>
         </select>
       </div>
@@ -22,7 +31,9 @@
     <slot />
     <footer class="footer footer-center p-10 bg-base-50">
       <div>
-        <h1 class="text-2xl md:text-3xl font-bold">Nuxt3 Starter</h1>
+        <h1 class="text-2xl md:text-3xl font-bold">
+          Nuxt3 Starter
+        </h1>
         <p class="md:font-bold">
           Create beautiful and fast websites without the tedious setup
         </p>
@@ -30,17 +41,23 @@
       </div>
       <div>
         <div class="grid grid-flow-col gap-4">
-          <a href="https://twitter.com/jrtiquez" target="_blank">
-            <i class="lab la-twitter text-4xl"></i>
+          <a
+            href="https://twitter.com/jrtiquez"
+            target="_blank"
+          >
+            <i class="lab la-twitter text-4xl" />
           </a>
           <a
             href="https://github.com/adhershmnair/nuxt3-tailwind-starter"
             target="_blank"
           >
-            <i class="lab la-github text-4xl"></i>
+            <i class="lab la-github text-4xl" />
           </a>
-          <a href="https://facebook.com/ossph.org" target="_blank">
-            <i class="lab la-facebook text-4xl"></i>
+          <a
+            href="https://facebook.com/ossph.org"
+            target="_blank"
+          >
+            <i class="lab la-facebook text-4xl" />
           </a>
         </div>
       </div>
