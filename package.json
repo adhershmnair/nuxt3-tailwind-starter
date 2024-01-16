@@ -1,0 +1,36 @@
+{
+  "name": "nuxt3-tailwind-starter",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "productName": "nuxt3-tailwind-starter",
+  "author": {
+    "name": "Adharsh M",
+    "email": "adhershmnair@gmail.com"
+  },
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "nuxt": "^3.9.1",
+    "vue": "^3.4.10",
+    "vue-router": "^4.2.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adhershmnair/nuxt3-tailwind-starter.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adhershmnair/nuxt3-tailwind-starter/issues"
+  },
+  "homepage": "https://github.com/adhershmnair/nuxt3-tailwind-starter#readme",
+  "dependencies": {
+    "@pinia/nuxt": "^0.5.1",
+    "pinia": "^2.1.7"
+  }
+}
