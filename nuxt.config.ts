@@ -5,6 +5,7 @@ export default defineNuxtConfig({
     "@pinia/nuxt",
     "@nuxtjs/tailwindcss",
     "@vueuse/nuxt",
-    "@nuxtjs/color-mode"
+    "@nuxtjs/color-mode",
+    "nuxt-icon"
   ]
 })
