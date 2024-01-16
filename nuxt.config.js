@@ -8,9 +8,6 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  log: {
-    level: 'error', // Only show errors
-  },
   modules: [
     "@pinia/nuxt",
     "@nuxtjs/tailwindcss",
