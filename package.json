@@ -22,15 +22,17 @@
     "@nuxtjs/tailwindcss": "^6.10.4",
     "@pinia/nuxt": "^0.5.1",
     "@vueuse/nuxt": "^10.7.2",
+    "autoprefixer": "^10.4.16",
     "daisyui": "^4.6.0",
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-vue": "^9.20.1",
     "nuxt": "^3.9.1",
     "nuxt-icon": "^0.6.8",
+    "postcss": "^8.4.33",
     "prettier": "3.2.2",
-    "vue": "^3.4.10",
-    "vue-router": "^4.2.5"
+    "sass": "^1.69.7",
+    "tailwindcss": "^3.4.1"
   },
   "repository": {
     "type": "git",
