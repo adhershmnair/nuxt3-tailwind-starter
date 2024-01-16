@@ -16,6 +16,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@pinia/nuxt": "^0.5.1",
     "nuxt": "^3.9.1",
     "vue": "^3.4.10",
     "vue-router": "^4.2.5"
@@ -30,7 +31,6 @@
   },
   "homepage": "https://github.com/adhershmnair/nuxt3-tailwind-starter#readme",
   "dependencies": {
-    "@pinia/nuxt": "^0.5.1",
     "pinia": "^2.1.7"
   }
 }
