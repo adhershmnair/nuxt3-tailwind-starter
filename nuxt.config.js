@@ -14,5 +14,9 @@ export default defineNuxtConfig({
     "@vueuse/nuxt",
     "@nuxtjs/color-mode",
     "nuxt-icon",
+    "nuxt-gtag"
   ],
+  gtag: {
+    id: 'G-WD6QFFKKVF'
+  }
 });
