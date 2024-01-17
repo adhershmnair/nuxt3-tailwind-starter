@@ -2,7 +2,7 @@
   <div :data-theme="theme">
     <div class="navbar fixed bg-base-100 z-40 shadow-sm">
       <div class="navbar-start">
-        <a class="btn btn-ghost md:text-xl">Nuxt3 Starter</a>
+        <a class="btn btn-ghost md:text-xl" href="/">Nuxt3 Starter</a>
       </div>
       <div class="navbar-center hidden lg:flex">
         <!-- TODO: You can add menu here -->
@@ -12,12 +12,7 @@
           v-model="theme"
           class="select select-primary md:w-full md:max-w-xs"
         >
-          <option
-            disabled
-            selected
-          >
-            Select Theme
-          </option>
+          <option disabled selected>Select Theme</option>
           <option
             v-for="daisyTheme in themes"
             :key="daisyTheme"
@@ -31,9 +26,7 @@
     <slot />
     <footer class="footer footer-center p-10 bg-base-50">
       <div>
-        <h1 class="text-2xl md:text-3xl font-bold">
-          Nuxt3 Starter
-        </h1>
+        <h1 class="text-2xl md:text-3xl font-bold">Nuxt3 Starter</h1>
         <p class="md:font-bold">
           Create beautiful and fast websites without the tedious setup
         </p>
@@ -42,19 +35,22 @@
       <div>
         <div class="grid grid-flow-col gap-4">
           <a
-            href="https://twitter.com/jrtiquez"
+            href="https://twitter.com/adhershmnair"
+            aria-label="Twitter"
             target="_blank"
           >
             <i class="lab la-twitter text-4xl" />
           </a>
           <a
             href="https://github.com/adhershmnair/nuxt3-tailwind-starter"
+            aria-label="Github"
             target="_blank"
           >
             <i class="lab la-github text-4xl" />
           </a>
           <a
-            href="https://facebook.com/ossph.org"
+            href="https://facebook.com/adhershmnair"
+            aria-label="Facebook"
             target="_blank"
           >
             <i class="lab la-facebook text-4xl" />
@@ -105,7 +101,7 @@ export default {
       localStorage.setItem("daisyui-theme", value);
     });
     onMounted(() => {
-      theme.value = localStorage.getItem("daisyui-theme") || "dark";
+      theme.value = localStorage.getItem("daisyui-theme") || "light";
     });
     return {
       theme,
