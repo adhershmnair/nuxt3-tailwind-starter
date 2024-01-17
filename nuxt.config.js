@@ -21,6 +21,7 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
+      title: "Nuxt3 Tailwind Starter | Adharsh M",
       link: [
         { rel: "icon", type: "image/png", href: "/favicon.ico" }
       ]
