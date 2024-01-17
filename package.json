@@ -1,7 +1,6 @@
 {
   "name": "nuxt3-tailwind-starter",
   "version": "1.0.0",
-  "private": true,
   "type": "module",
   "productName": "nuxt3-tailwind-starter",
   "author": "Adharsh M <adhershmnair@gmail.com>",
