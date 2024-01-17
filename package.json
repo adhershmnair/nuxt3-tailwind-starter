@@ -4,10 +4,7 @@
   "private": true,
   "type": "module",
   "productName": "nuxt3-tailwind-starter",
-  "author": {
-    "name": "Adharsh M",
-    "email": "adhershmnair@gmail.com"
-  },
+  "author": "Adharsh M <adhershmnair@gmail.com>",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
