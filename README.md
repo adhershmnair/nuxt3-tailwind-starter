@@ -3,9 +3,6 @@
 Nuxt3 Tailwind Starter is a starter template for Nuxt.js 3 + Tailwind CSS + Daisy UI with additional installed setup for custom font, icons, and more.
 </p>
 
-- [Showcase](#showcase)
-- [Getting Started Guide](#getting-started-guide)
-
 # Getting Started Guide
 
 ## Installation
