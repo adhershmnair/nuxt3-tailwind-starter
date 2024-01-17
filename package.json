@@ -44,5 +44,8 @@
   "bugs": {
     "url": "https://github.com/adhershmnair/nuxt3-tailwind-starter/issues"
   },
-  "homepage": "https://github.com/adhershmnair/nuxt3-tailwind-starter#readme"
+  "homepage": "https://github.com/adhershmnair/nuxt3-tailwind-starter#readme",
+  "description": "<h1 align=\"center\">Nuxt3 Tailwind Starter</h1> <p style=\"text-align: center\"> Nuxt3 Tailwind Starter is a starter template for Nuxt.js 3 + Tailwind CSS + Daisy UI with additional installed setup for custom font, icons, and more. </p>",
+  "main": "nuxt.config.js",
+  "keywords": []
 }
