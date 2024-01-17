@@ -18,5 +18,12 @@ export default defineNuxtConfig({
   ],
   gtag: {
     id: 'G-WD6QFFKKVF'
+  },
+  app: {
+    head: {
+      link: [
+        { rel: "icon", type: "image/png", href: "/favicon.ico" }
+      ]
+    }
   }
 });
